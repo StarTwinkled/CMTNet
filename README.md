@@ -2,19 +2,19 @@
 
 This repository is an official PyTorch implementation of our paper"Enhancing Real-Time Semantic Segmentation: A Dual-Branch Architecture with Mamba-Transformer Synergy".
 
-[Code](https://github.com/XU-GITHUB-curry/FBSNet)
+[Code](https://github.com/StarTwinkled/CMTNet)
 
 
 
 ## Installation
 
 ```
-cuda == 11.6
+cuda == 11.8
 Python == 3.8
-Pytorch == 1.13.0+cu116
+Pytorch == 1.13.0+cu118
 
 # clone this repository
-git clone https://github.com/XU-GITHUB-curry/FBSNet.git
+git clone https://github.com/StarTwinkled/CMTNet.git
 ```
 
 
@@ -87,5 +87,6 @@ python predict.py --dataset cityscapes
 | :-----: | :--------: | :--------: | :-----: |
 | CMTNet  | Cityscapes |  512x1024  |  70.7   |
 | CMTNet  |   CamVid   |  360x480   |  71.4  |
+
 
 
